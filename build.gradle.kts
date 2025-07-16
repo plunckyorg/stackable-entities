@@ -47,7 +47,7 @@ tasks.withType<ShadowJar> {
 
 paper {
     name = project.name
-    prefix = "Stackable Entities" // As shown in console
+    prefix = "Stackable Entities"
     apiVersion = "1.21.7"
     version = "${project.version}"
     main = "com.pluncky.stackableentities.StackableEntitiesPlugin"
@@ -57,6 +57,7 @@ paper {
     serverDependencies {
         register("bukkit-utils") {
             load = PaperPluginDescription.RelativeLoadOrder.AFTER
+            required = true
         }
     }
 }
