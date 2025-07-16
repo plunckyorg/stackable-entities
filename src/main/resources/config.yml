@@ -1,0 +1,6 @@
+drops:
+  stacking-radius: 16
+  max-stack-size: 2304 # 1 full inventory
+creatures:
+  stacking-radius: 16
+  max-stack-size: 2147483648 # Max value of an integer
